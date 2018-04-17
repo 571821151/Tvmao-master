@@ -8,9 +8,11 @@
 from scrapy import Item, Field
 
 
-class Article(Item):
+class Yellow(Item):
     # define the fields for your item here like:
     # name = scrapy.Field()
     program = Field()
-    p_show=Field()
+    img=Field()
+    title=Field()
+    video=Field()
     pass
