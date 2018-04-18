@@ -15,6 +15,11 @@ SPIDER_MODULES = ['WikiSpider.spiders']
 NEWSPIDER_MODULE = 'WikiSpider.spiders'
 
 
+MONGODB_SERVER = "localhost"
+MONGODB_PORT = 27017
+MONGODB_DB = "dbyellow"
+MONGODB_COLLECTION = "yellow"
+
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
 #USER_AGENT = 'WikiSpider (+http://www.yourdomain.com)'
 
